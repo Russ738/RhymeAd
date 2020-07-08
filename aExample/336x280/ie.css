@@ -1,0 +1,120 @@
+body {
+    display: block;
+}
+/* IE FIXES */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+
+    /* IE10+ CSS styles go here */
+
+    /*  Not sure why, but IE needs all of these spelled out individually...  */
+    #heroSmoke .ce_image:nth-child(1) {
+        animation-name: smokeL;
+        animation-delay: 0s;
+        animation-duration: 10s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        animation-fill-mode: both;
+        animation-play-state: running;
+    }
+    #heroSmoke .ce_image:nth-child(2) {
+        animation-name: smokeR;
+        animation-delay: 1s;
+        animation-duration: 10s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        animation-fill-mode: both;
+        animation-play-state: running;
+    }
+    #heroSmoke .ce_image:nth-child(3) {
+        animation-name: smokeL;
+        animation-delay: 2s;
+        animation-duration: 10s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        animation-fill-mode: both;
+        animation-play-state: running;
+    }
+    #heroSmoke .ce_image:nth-child(4) {
+        animation-name: smokeR;
+        animation-delay: 3s;
+        animation-duration: 10s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        animation-fill-mode: both;
+        animation-play-state: running;
+    }
+    #heroSmoke .ce_image:nth-child(5) {
+        animation-name: smokeL;
+        animation-delay: 4s;
+        animation-duration: 10s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        animation-fill-mode: both;
+        animation-play-state: running;
+    }
+    #heroSmoke .ce_image:nth-child(6) {
+        animation-name: smokeR;
+        animation-delay: 5s;
+        animation-duration: 10s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        animation-fill-mode: both;
+        animation-play-state: running;
+    }
+    #heroSmoke .ce_image:nth-child(7) {
+        animation-name: smokeL;
+        animation-delay: 6s;
+        animation-duration: 10s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        animation-fill-mode: both;
+        animation-play-state: running;
+    }
+    #heroSmoke .ce_image:nth-child(8) {
+        animation-name: smokeR;
+        animation-delay: 7s;
+        animation-duration: 10s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        animation-fill-mode: both;
+        animation-play-state: running;
+    }
+    #heroSmoke .ce_image:nth-child(9) {
+        animation-name: smokeL;
+        animation-delay: 8s;
+        animation-duration: 10s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        animation-fill-mode: both;
+        animation-play-state: running;
+    }
+    #heroSmoke .ce_image:nth-child(10) {
+        animation-name: smokeR;
+        animation-delay: 9s;
+        animation-duration: 10s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        animation-fill-mode: both;
+        animation-play-state: running;
+    }
+
+
+}
+
+
+
+@supports (-ms-ime-align: auto) {
+
+    /* IE EDGE CSS styles go here */
+
+}

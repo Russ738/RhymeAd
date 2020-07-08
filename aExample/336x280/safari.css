@@ -1,0 +1,13 @@
+/* Safari 7.1+ */
+_::-webkit-full-page-media .sway,
+_:future .sway,
+:root .sway {
+
+
+}
+
+/* Safari 10.1+ */
+@media not all and (min-resolution:.001dpcm) { @media {
+
+
+}}
