@@ -36,6 +36,8 @@ h2{
     -ms-transform-origin: 50% 50%;
     -o-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
+    left:40%; 
+    top:52%;
 }
 #dog{
     width:400px;

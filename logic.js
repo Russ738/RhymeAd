@@ -31,10 +31,13 @@ var Rhyme = window.Rhyme || {};
 
 		// -------------------------------------------SLIDE 1
 			.addLabel('slide1Started')
+			//.set(_dom.logo,{left:110, y:100})
 			.to(_dom.dog, 1, {left:300}, 'slide1Started+=0')
 			.to(_dom.glass, 1, {left:300}, 'slide1Started+=0')
 			.to(_dom.glass, 1, {className:".show", left:70, y:20}, 'slide1Started+=1')
-			.to(_dom.logo, 2, {scale:1.5}) 
+			.to(_dom.logo, 1, {scale:1.5}, 'slide1Started+=2') 
+			.to(_dom.logo,1,{className:'.hide'},'slide1Started+=4')
+			.to(_dom.glass,1,{className:'.hide'},'slide1Started+=4')
 		;
 	}
 
