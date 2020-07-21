@@ -1,0 +1,51 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>ad</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="style1.css">
+  <style>#wrapper, .stage { width:336px;height:280px;}</style>
+<script type="text/javascript">
+    var clickTag = 'https://rhyme.digital';
+</script>
+</head>
+
+<body>
+    <!-- CLICKTAG AREA - PUT ALL CONTENT IN HERE -->
+    <a id="clickTag" href="javascript:window.open(window.clickTag);">
+        <div id="wrapper">
+            <div class="stage relative">
+                <div class="scene1">
+                    <div class="absolute">
+                        <img id="dog" src="dog.png">
+                    </div>
+                    <div id="logo">
+                        <img id="logo" src="rhyme_logo_white.png" width="50">
+                    </div>
+                </div>
+            <div class="scene2">
+                <img id="glass" class="hide" src="glass.png" width="250">
+            </div>
+
+            
+            </div>
+        </div>
+    </a>
+    <script src="logic.js"></script>
+    
+    <script src="https://s0.2mdn.net/ads/studio/cached_libs/tweenmax_1.20.0_d360d9a082ccc13b1a1a9b153f86b378_min.js"></script>
+    <script src="https://s0.2mdn.net/ads/studio/cached_libs/timelinemax_1.20.0_d82c0635e1c062329eb780229648d97f_min.js"></script>
+    <script src="https://s0.2mdn.net/ads/studio/cached_libs/easepack_1.20.0_f9d13d59407792e37168747225359927_min.js"></script>
+    <script>
+        window.onload = function() {
+            jQuery(document).ready(Rhyme.Ad.init);
+        };
+    </script>
+</body>
+</html>

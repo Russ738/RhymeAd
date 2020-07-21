@@ -1,0 +1,58 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    border: 0;
+    font-size: 100%;
+    outline: 0;
+    background: transparent;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+#wrapper {
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
+    background-color:grey;
+    overflow: hidden;
+}
+h2{
+    font-size: 24px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    top:100%;
+    left:140px;
+}
+#logo{
+    position: absolute;
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+#dog{
+    width:400px;
+    height:400px;
+    position: absolute;
+    animation-name: dog;
+    animation-duration: 4s;
+}
+#glass{
+    width:400px;
+    height:400px;
+    position: absolute;
+}
+
+.hide{
+    opacity: 0;
+}
+.show{
+    opacity: 1;
+}
