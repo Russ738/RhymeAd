@@ -36,8 +36,8 @@ h2{
     -ms-transform-origin: 50% 50%;
     -o-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
-    left:40%; 
-    top:52%;
+    left:39%; 
+    top:53%;
 }
 #dog{
     width:400px;
@@ -46,12 +46,21 @@ h2{
     animation-name: dog;
     animation-duration: 4s;
 }
-#glass{
+#glass, #glasslogo{
     width:400px;
     height:400px;
     position: absolute;
+    z-index: 5;
 }
-
+#glasslogo{
+    left:70px;
+    top:20px;
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
 .hide{
     opacity: 0;
 }

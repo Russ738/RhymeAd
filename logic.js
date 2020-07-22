@@ -18,6 +18,7 @@ var Rhyme = window.Rhyme || {};
 		_dom.dog                = document.getElementById('dog');
 		_dom.logo               = document.getElementById('logo');
 		_dom.glass 				= document.getElementById('glass')
+		_dom.glasslogo			= document.getElementById('glasslogo')
 	}
 
 	/**
@@ -34,10 +35,12 @@ var Rhyme = window.Rhyme || {};
 			//.set(_dom.logo,{left:110, y:100})
 			.to(_dom.dog, 1, {left:300}, 'slide1Started+=0')
 			.to(_dom.glass, 1, {left:300}, 'slide1Started+=0')
-			.to(_dom.glass, 1, {className:".show", left:70, y:20}, 'slide1Started+=1')
-			.to(_dom.logo, 1, {scale:1.5}, 'slide1Started+=2') 
-			.to(_dom.logo,1,{className:'.hide'},'slide1Started+=4')
-			.to(_dom.glass,1,{className:'.hide'},'slide1Started+=4')
+			.to(_dom.glass, 1, {className:"", left:70, y:20}, 'slide1Started+=1')
+			.to(_dom.logo, 1, {scale:1.7}, 'slide1Started+=2') 
+			.to(_dom.logo, 1, {className:'+=hide'},'slide1Started+=4')
+			.to(_dom.glass, 1,{ className:'+=hide'},'slide1Started+=4')
+			.to(_dom.glasslogo, 0,{ className:'+=show'},'slide1Started+=4')
+			.to(_dom.glasslogo, 1,{scale:.5, className:'+=show', left:-50, y:-50},'slide1Started+=4')
 		;
 	}
 
