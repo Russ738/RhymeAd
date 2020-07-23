@@ -41,6 +41,7 @@ var Rhyme = window.Rhyme || {};
 			.to(_dom.glass, 1,{ className:'+=hide'},'slide1Started+=4')
 			.to(_dom.glasslogo, 0,{ className:'+=show'},'slide1Started+=4')
 			.to(_dom.glasslogo, 1,{scale:.5, className:'+=show', left:-50, y:-50},'slide1Started+=4')
+			
 		;
 	}
 
