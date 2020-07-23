@@ -17,7 +17,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
     position: absolute;
     cursor: pointer;
     z-index: 100;
-    background-color:grey;
+    background:linear-gradient(150deg, #e77065 0px, #a1146c 100px, #320033 200px, #130013 250px, #320033 900px);
     overflow: hidden;
 }
 h2{
@@ -67,3 +67,4 @@ h2{
 .show{
     opacity: 1;
 }
+
