@@ -46,11 +46,12 @@ h2{
     animation-name: dog;
     animation-duration: 4s;
 }
-#glass, #glasslogo{
+#glass, #glasslogo, #crystalball{
     width:400px;
     height:400px;
     position: absolute;
     z-index: 5;
+    
 }
 #glasslogo{
     left:70px;
@@ -68,3 +69,7 @@ h2{
     opacity: 1;
 }
 
+#crystalball{
+    left:70px;
+    top:20px;
+}
